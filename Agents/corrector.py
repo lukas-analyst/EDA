@@ -1,20 +1,18 @@
 def get_corrector_prompt(product_name, tech_data, draft_description, category):
-    return f"""Jsi technická kontrola kvality (QA) pro B2B data.
+    return f"""Jsi technická kontrola (QA).
 
-ZKONTROLUJ SHODU TĚCHTO DAT:
-1. Původní název: "{product_name}"
-2. Kategorie: "{category}"
-3. Původní technická data: {tech_data}
-4. Vygenerovaný popis:
+PŮVODNÍ DATA:
+- Název: "{product_name}"
+- Kategorie: "{category}"
+
+GENEROVANÝ POPIS KE KONTROLE:
 {draft_description}
 
-KONTROLNÍ BODY:
-- Sedí rozměry v popisu s názvem produktu?
-- Odpovídá popis kategorii "{category}"? (Např. popis nesmí mluvit o rukavicích, pokud jde o šroub).
-- Jsou odstraněna slova jako "úžasný", "krásný"? Text musí být strohý.
-- Jsou správně jednotky (mm, ks, ml)?
+TVŮJ ÚKOL:
+1. Zkontroluj technickou přesnost (sedí rozměry, materiál, norma v obou popisech?).
+2. Ověř, že text je **pouze prostý text** bez Markdown formátování (žádné **tučné**, žádné # nadpisy).
+3. Ověř, že text neobsahuje zakázanou sekci "Použití" nebo "Aplikace" jako nadpis.
+4. Pokud je vše v pořádku, vrať text beze změny. Pokud ne, oprav ho na prostý text.
 
-VÝSTUP:
-Pokud je text v pořádku, vrať ho beze změny.
-Pokud najdeš faktickou chybu nebo špatný tón, oprav ji a vrať pouze opravený Markdown text.
+VÝSTUP: Pouze finální prostý text.
 """
