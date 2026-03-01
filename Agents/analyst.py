@@ -9,12 +9,30 @@ VSTUPNÍ DATA:
 TECHNICKÝ SLOVNÍK (POUŽIJ PRO DEKÓDOVÁNÍ):
 - ZB, ZN, GALV = Galvanický zinek (bílý) - standardní ochrana do sucha.
 - ZC = Zinek černý.
-- BP = Bílý pozink.
+- CZ = Částečný závit.
+- ZZ - Zinek žlutý.
+- ZB = Zinek bílý.
+- BP = Bez povrchové úpravy.
+- MS = Mosaz.
 - A2 / NEREZ = Nerezová ocel A2 (AISI 304).
-- A4 = Kyselinovzdorná ocel A4 (AISI 316).
+- A4 = Nerezová ocel do slané vody A4 (AISI 316).
 - 8.8, 10.9, 12.9 = Pevnostní třída oceli.
 - DIN [číslo], ISO [číslo], ČSN [číslo] = Technická norma.
 - VH = Válcová hlava / ZH = Zápustná hlava / 6HR = Šestihranná hlava.
+- JM = Jemný závit + kategorie stoupání
+- M = Metrický závit (u matic a šroubů) + rozměr (např. M8x100).
+- ST = Ocel (nýt)
+- FE = Železo - černé (nýt)
+- ST/ST = Ocel-ocel (nýt)
+- AL = Hliník (nýt)
+- AL/ST = Hliník - ocel (nýt)
+- CU = Měď (nýt)
+- Mg = Hořčík
+- PH = Půlkulatá hlava (nýt)
+- ZH = Zapuštěný hlava (nýt) + T = Torxní drážka
+- ZH = Zapuštěný hlava (nýt) + X = Křížová drážka
+- VHP = Válcová hlava s půlkulatou hlavou (nýt)
+
 
 INSTRUKCE:
 1. Podívej se na kategorii "{category}". Pokud jde o spojovací materiál, hledej rozměry (průměr x délka). Pokud jde o ochranné pomůcky, hledej velikost/normu.
