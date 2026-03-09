@@ -30,7 +30,7 @@ TECHNICKÁ DATA: {tech_data}
 
 INSTRUKCE PRO PSANÍ:
 1. **Obsah:** Stručně popiš produkt, jeho klíčové vlastnosti a použití.
-2. **Formát:** Pouze prostý text. Žádné Markdown formátování (žádné tučné písmo, žádné nadpisy). Žádné odrážky.
+2. **Formát:** Pouze prostý text. Žádné Markdown formátování (žádné tučné písmo, žádné nadpisy). Žádné odrážky. Žádné zkratky.
 3. **Chybějící data:** Pokud ve vstupu chybí detaily, doplň logický popis standardní pro tento typ produktu.
 
 ŘIĎ SE TĚMITO PŘÍKLADY (FEW-SHOT):
